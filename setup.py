@@ -15,7 +15,7 @@ setuptools.setup(
     # Distribution name the package. Name must be unique so adding your username at the end is common.
     name="TEA_ROACH",
     # Version number of your package. Semantic versioning is commonly used.
-    version="PKG_VERSION",
+    version="v1.0.0",
     # Author name.
     author="Maksym",
     # Author's email address.
