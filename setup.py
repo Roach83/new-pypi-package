@@ -29,7 +29,9 @@ setuptools.setup(
     # The URL that represents the homepage of the project. Most projects link to the repo.
     url="https://github.com/Roach83/sample-pypi-package",
     # Finds all packages within in the project and combines them into the distribution together.
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=io.open("requirements.txt").read().splitlines(),
     # requirements or dependencies that will be installed alongside your package when the user installs it via pip.
     # install_requires=requirements,
     # Gives pip some metadata about the package. Also displays on the PyPi page.
@@ -40,4 +42,5 @@ setuptools.setup(
     ],
     # The version of Python that is required.
     python_requires='>=3.6',
+    scripts=[],
 )
