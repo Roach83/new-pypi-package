@@ -5,7 +5,7 @@ import importlib.util
 from pathlib import Path
 from setuptools import setup, find_packages
 
-print("TEA-oss package-1")
+print("TEA-oss package-2")
 
 # Opens our README.md and assigns it to long_description.
 with open("README.md", "r") as fh:
@@ -17,9 +17,9 @@ with open("README.md", "r") as fh:
 # Function that takes several arguments. It assigns these values to our package.
 setuptools.setup(
     # Distribution name the package. Name must be unique so adding your username at the end is common.
-    name="TEA_ROACH",
+    name="TEA_ROACH_NEW",
     # Version number of your package. Semantic versioning is commonly used.
-    version="v1.0.1",
+    version="v1.0.0",
     # Author name.
     author="Maksym",
     # Author's email address.
@@ -31,7 +31,7 @@ setuptools.setup(
     # Defines the content type that the long_description is using.
     long_description_content_type="text/markdown",
     # The URL that represents the homepage of the project. Most projects link to the repo.
-    url="https://github.com/Roach83/sample-pypi-package",
+    url="https://github.com/Roach83/new-pypi-package",
     # Finds all packages within in the project and combines them into the distribution together.
     packages=find_packages(),
     include_package_data=True,
