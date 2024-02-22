@@ -5,7 +5,7 @@ import importlib.util
 from pathlib import Path
 from setuptools import setup, find_packages
 
-print("TEA-oss package-new")
+print("TEA package")
 
 # Opens our README.md and assigns it to long_description.
 with open("README.md", "r") as fh:
