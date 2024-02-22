@@ -21,7 +21,7 @@ setuptools.setup(
     # Author's email address.
     author_email="elderlom123@gmail.com",
     # Short description that will show on the PyPi page.
-    description="A placeholder package",
+    description="Tea test package",
     # Long description that will display on the PyPi page. Uses the repo's README.md to populate this.
     long_description=long_description,
     # Defines the content type that the long_description is using.
