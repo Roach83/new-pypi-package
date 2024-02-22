@@ -27,7 +27,7 @@ setuptools.setup(
     # Defines the content type that the long_description is using.
     long_description_content_type="text/markdown",
     # The URL that represents the homepage of the project. Most projects link to the repo.
-    url="https://github.com/ashishbijlani/sample-pypi-package",
+    url="https://github.com/Roach83/sample-pypi-package",
     # Finds all packages within in the project and combines them into the distribution together.
     packages=setuptools.find_packages(),
     # requirements or dependencies that will be installed alongside your package when the user installs it via pip.
