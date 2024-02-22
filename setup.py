@@ -17,9 +17,9 @@ setuptools.setup(
     # Version number of your package. Semantic versioning is commonly used.
     version="PKG_VERSION",
     # Author name.
-    author="Ashish Bijlani",
+    author="Maksym",
     # Author's email address.
-    author_email="ab@gmail.com",
+    author_email="elderlom123@gmail.com",
     # Short description that will show on the PyPi page.
     description="A placeholder package",
     # Long description that will display on the PyPi page. Uses the repo's README.md to populate this.
