@@ -1,5 +1,9 @@
 # Import our newly installed setuptools package.
 import setuptools
+import io
+import importlib.util
+from pathlib import Path
+from setuptools import setup, find_packages
 
 print("TEA-oss package-1")
 
