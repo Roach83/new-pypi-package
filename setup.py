@@ -1,7 +1,7 @@
 # Import our newly installed setuptools package.
 import setuptools
 
-print("TEA OSS package")
+print("TEA-oss package-1")
 
 # Opens our README.md and assigns it to long_description.
 with open("README.md", "r") as fh:
