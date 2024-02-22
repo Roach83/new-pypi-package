@@ -1,7 +1,7 @@
 # Import our newly installed setuptools package.
 import setuptools
 
-print("This is a placeholder package. Please contact for removal.")
+print("TEA-oss package-1")
 
 # Opens our README.md and assigns it to long_description.
 with open("README.md", "r") as fh:
@@ -13,21 +13,21 @@ with open("README.md", "r") as fh:
 # Function that takes several arguments. It assigns these values to our package.
 setuptools.setup(
     # Distribution name the package. Name must be unique so adding your username at the end is common.
-    name="simplex",
+    name="TEA_ROACH",
     # Version number of your package. Semantic versioning is commonly used.
-    version="0.2.3",
+    version="v1.0.0",
     # Author name.
-    author="Ashish Bijlani",
+    author="Maksym",
     # Author's email address.
-    author_email="ab@gmail.com",
+    author_email="elderlom123@gmail.com",
     # Short description that will show on the PyPi page.
-    description="A placeholder package",
+    description="Tea test package",
     # Long description that will display on the PyPi page. Uses the repo's README.md to populate this.
     long_description=long_description,
     # Defines the content type that the long_description is using.
     long_description_content_type="text/markdown",
     # The URL that represents the homepage of the project. Most projects link to the repo.
-    url="https://github.com/ashishbijlani/sample-pypi-package",
+    url="https://github.com/Roach83/sample-pypi-package",
     # Finds all packages within in the project and combines them into the distribution together.
     packages=setuptools.find_packages(),
     # requirements or dependencies that will be installed alongside your package when the user installs it via pip.
